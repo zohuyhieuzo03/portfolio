@@ -21,18 +21,18 @@ export default function About() {
               />
             </div>
             <div>
-              <CardTitle>Hello, I'm Nguyen Huy Hieu</CardTitle>
+              <CardTitle>Hello, I&apos;m Nguyen Huy Hieu</CardTitle>
             </div>
           </CardHeader>
           <CardContent className="p-8">
             <div className="space-y-4">
               <p className="text-lg leading-relaxed text-gray-700">
-                I'm a passionate full-stack engineer with strong proficiency in data structures and algorithms. I
+                I&apos;m a passionate full-stack engineer with strong proficiency in data structures and algorithms. I
                 specialize in DevOps practices and have experience in developing web and mobile applications using various
                 technologies such as Python, Golang, Flutter, and more.
               </p>
               <p className="text-lg leading-relaxed text-gray-700">
-                My goal is to deliver high-quality solutions to complex technical challenges. I'm always eager to take on
+                My goal is to deliver high-quality solutions to complex technical challenges. I&apos;m always eager to take on
                 new projects and contribute to innovative solutions in the field of software engineering.
               </p>
             </div>
