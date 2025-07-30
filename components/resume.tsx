@@ -17,7 +17,7 @@ export default function Resume() {
               <a href="mailto:hhleas03@gmail.com" className="text-blue-600 hover:underline inline-flex items-center gap-1">
                 <Mail size={16} /> hhleas03@gmail.com
               </a> • 
-              <a href="https://linkedin.com/in/hieu-nguyen-huy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-1">
+              <a href="https://www.linkedin.com/in/hieu-nguyen-huy/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-1">
                 <Linkedin size={16} /> linkedin.com/in/hieu-nguyen-huy
               </a> • 
               <a href="https://github.com/hieunh03" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-1">
@@ -40,6 +40,8 @@ export default function Resume() {
                   <ul className="list-disc list-inside mt-2">
                     <li>Developed a RESTful API for the payment system, enhancing reliability and security, resulting in a 20% improvement in error detection speed.</li>
                     <li>Optimized the payout interface for makers, achieving a 50% faster payout process.</li>
+                    <li>Implemented real-time monitoring and alerting systems for payment transactions.</li>
+                    <li>Collaborated with cross-functional teams to deliver high-quality features on time.</li>
                   </ul>
                 </div>
                 <div>
@@ -50,6 +52,7 @@ export default function Resume() {
                     <li>Developed a website using Golang in a monorepo to manage forests and carbon credits, resulting in a 20% increase in user engagement and 70% reduction in map loading time.</li>
                     <li>Improved CI/CD pipeline, reducing build time by 20% and increasing testing efficiency by 15%.</li>
                     <li>Developed components for a mobile app using Flutter and implemented CI/CD workflow with Fastlane.</li>
+                    <li>Participated in code reviews and contributed to team knowledge sharing sessions.</li>
                   </ul>
                 </div>
                 <div>
@@ -58,6 +61,7 @@ export default function Resume() {
                   <ul className="list-disc list-inside mt-2">
                     <li>Developed a source code analysis tool, increasing Dependency Analysis speed by 60%.</li>
                     <li>Published a paper and built microservices and authentication for the tool.</li>
+                    <li>Conducted research on software engineering methodologies and best practices.</li>
                   </ul>
                 </div>
               </div>
@@ -84,29 +88,61 @@ export default function Resume() {
             
             <div>
               <h3 className="text-xl font-semibold mb-2">Skills</h3>
-              <ul className="list-disc list-inside">
-                <li>Developer Tools: Git, Github, Postman, Docker, Kubernetes</li>
-                <li>Technologies: C/C++, Python, Java, Golang, Javascript, SQL, React, Ruby</li>
-              </ul>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <h4 className="font-semibold mb-2">Programming Languages</h4>
+                  <ul className="list-disc list-inside text-sm">
+                    <li>C/C++, Python, Java, Golang, JavaScript, TypeScript</li>
+                    <li>SQL, HTML/CSS, Ruby, PHP</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Frameworks & Technologies</h4>
+                  <ul className="list-disc list-inside text-sm">
+                    <li>React, Node.js, Express.js, FastAPI, Spring Boot</li>
+                    <li>Flutter, Docker, Kubernetes, Git, GitHub</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Tools & Platforms</h4>
+                  <ul className="list-disc list-inside text-sm">
+                    <li>Postman, AWS, Google Cloud Platform</li>
+                    <li>MongoDB, PostgreSQL, Redis, RabbitMQ</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Other Skills</h4>
+                  <ul className="list-disc list-inside text-sm">
+                    <li>Data Structures & Algorithms</li>
+                    <li>DevOps, CI/CD, Microservices</li>
+                    <li>RESTful APIs, GraphQL</li>
+                  </ul>
+                </div>
+              </div>
             </div>
             
             <div>
               <h3 className="text-xl font-semibold mb-2">Projects</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-lg font-semibold">Smart Home</h4>
+                  <h4 className="text-lg font-semibold">Smart Home IoT Management System</h4>
                   <p className="text-sm text-gray-500">Mar 2024 - Jun 2024</p>
-                  <p>Developed a mobile app for managing IoT devices with map-based visualization, using Home Assistant, Flutter, and Spring Boot. Achieved 30% faster response time, 25% better alert reliability, and 90% user satisfaction in testing.</p>
+                  <p>Developed a comprehensive mobile application for managing IoT devices with map-based visualization, using Home Assistant, Flutter, and Spring Boot. Achieved 30% faster response time, 25% better alert reliability, and 90% user satisfaction in testing. Implemented real-time device monitoring and automated alert systems.</p>
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold">MindMap AI</h4>
+                  <h4 className="text-lg font-semibold">MindMap AI - Intelligent Diagram Creator</h4>
                   <p className="text-sm text-gray-500">Aug 2023 - Nov 2023</p>
-                  <p>Developed a web application that helps users create mind maps and flowcharts using AI, resulting in a 30% reduction in time spent on creating diagrams.</p>
+                  <p>Developed a web application that helps users create mind maps and flowcharts using AI, resulting in a 30% reduction in time spent on creating diagrams. Integrated natural language processing to automatically generate diagram structures from text input.</p>
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold">Dictionary</h4>
+                  <h4 className="text-lg font-semibold">High-Performance Dictionary Application</h4>
                   <p className="text-sm text-gray-500">Oct 2022 - Dec 2022</p>
-                  <p>Implemented a Trie data structure to reduce search time by 80% and integrated Google Translate API for English to Vietnamese translation.</p>
+                  <p>Implemented a Trie data structure to reduce search time by 80% and integrated Google Translate API for English to Vietnamese translation. Built a user-friendly interface with advanced search features and pronunciation guides.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold">E-commerce Platform</h4>
+                  <p className="text-sm text-gray-500">Jan 2023 - Mar 2023</p>
+                  <p>Developed a full-stack e-commerce platform using React, Node.js, and MongoDB. Implemented user authentication, product management, shopping cart functionality, and payment integration with Stripe API.</p>
                 </div>
               </div>
             </div>
@@ -120,7 +156,7 @@ export default function Resume() {
 
           <CardFooter className="flex justify-center">
             <Button asChild className="hover:scale-105 transition-transform">
-              <a href="/resume/Nguyen_Huy_Hieu_Resume.pdf" download>Download Full Resume</a>
+              <a href="/resume/Nguyen_Huy_Hieu_SWE.pdf" download>Download Full Resume</a>
             </Button>
           </CardFooter>
         </Card>
