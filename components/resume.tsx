@@ -120,7 +120,7 @@ export default function Resume() {
 
           <CardFooter className="flex justify-center">
             <Button asChild className="hover:scale-105 transition-transform">
-              <a href="/resume/Nguyen_Huy_Hieu_Resume.pdf" download>Download Full Resume</a>
+              <a href="/resume/Nguyen_Huy_Hieu_SWE.pdf" download>Download Full Resume</a>
             </Button>
           </CardFooter>
         </Card>
