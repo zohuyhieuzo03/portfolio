@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold">
             Nguyen Huy Hieu
-            <span className="text-sm font-normal text-gray-600 ml-2">Fullstack Developer</span>
+            <span className="text-sm font-normal text-gray-600 ml-2">Software Engineer</span>
           </Link>
           <div className="space-x-4">
             <Button variant="ghost" asChild>
