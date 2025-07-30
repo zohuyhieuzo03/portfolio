@@ -51,7 +51,7 @@ export default function Resume() {
                     <li>Developed an <strong>ERP service</strong> that maintains pull requests and links with documents to manage the goals and tasks of the product.</li>
                     <li>Developed an <strong>anomaly detection service</strong> for detecting anomalies in on-ramp and off-ramp flows using <strong>AWS Cloudwatch</strong>.</li>
                     <li>Maintained and optimized the <strong>KYC service (kyc-service)</strong>, reducing operational costs while ensuring stability and performance.</li>
-                    <li>Worked within a <strong>Ruby backend stack</strong>, aligning with Remitano's core technology ecosystem.</li>
+                    <li>Worked within a <strong>Ruby backend stack</strong>, aligning with Remitano&apos;s core technology ecosystem.</li>
                   </ul>
                 </div>
                 <div>
