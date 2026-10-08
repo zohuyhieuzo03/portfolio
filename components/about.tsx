@@ -27,7 +27,7 @@ export default function About() {
           <CardContent className="p-8">
             <div className="space-y-4">
               <p className="text-lg leading-relaxed text-gray-700">
-                I&apos;m a passionate full-stack engineer currently working at Remitano, a cryptocurrency exchange platform. 
+                I&apos;m a passionate software engineer currently working at OPSWAT, a global cybersecurity company, and the founder of techjobs.vn. 
                 With strong proficiency in data structures and algorithms, I specialize in developing scalable web applications 
                 and implementing DevOps practices. I have extensive experience with technologies including Python, Golang, 
                 JavaScript/TypeScript, React, and Flutter.

@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Nguyen Huy Hieu - Fullstack Developer",
-  description: "Fullstack Developer at Remitano with expertise in Python, Golang, React, and Flutter. Award-winning competitive programmer with strong background in data structures and algorithms.",
+  title: "Nguyễn Huy Hiệu (Nguyen Huy Hieu) - Software Engineer at OPSWAT",
+  description: "Software Engineer at OPSWAT and founder of techjobs.vn, with expertise in Python, Golang, React, and Flutter. Award-winning competitive programmer with strong background in data structures and algorithms.",
 };
 
 export default function RootLayout({

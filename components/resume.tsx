@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Phone, Mail, Linkedin, Github } from "lucide-react"
+import { Mail, Linkedin, Github } from "lucide-react"
 
 export default function Resume() {
   return (
@@ -18,20 +18,17 @@ export default function Resume() {
               <CardTitle className="text-4xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-2">
                 Nguyen Huy Hieu
               </CardTitle>
-              <p className="text-xl text-gray-600 font-medium">Fullstack Developer</p>
+              <p className="text-xl text-gray-600 font-medium">Software Engineer</p>
             </div>
             <CardDescription className="flex items-center gap-6 flex-wrap justify-center text-base">
-              <a href="tel:+84388522680" className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-2 transition-colors">
-                <Phone size={18} /> +84 388 522 680
-              </a>
               <a href="mailto:hhleas03@gmail.com" className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-2 transition-colors">
                 <Mail size={18} /> hhleas03@gmail.com
               </a>
               <a href="https://www.linkedin.com/in/hieu-nguyen-huy/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-2 transition-colors">
                 <Linkedin size={18} /> linkedin.com/in/hieu-nguyen-huy
               </a>
-              <a href="https://github.com/hieunh03" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-2 transition-colors">
-                <Github size={18} /> github.com/hieunh03
+              <a href="https://github.com/zohuyhieuzo03" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-2 transition-colors">
+                <Github size={18} /> github.com/zohuyhieuzo03
               </a>
             </CardDescription>
           </CardHeader>
@@ -45,8 +42,12 @@ export default function Resume() {
               <h3 className="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-blue-200 pb-2">Work Experience</h3>
               <div className="space-y-4">
                 <div>
+                  <h4 className="text-lg font-semibold"><strong>Software Engineer</strong></h4>
+                  <p className="text-sm text-gray-500"><strong>OPSWAT</strong> - Cybersecurity | Mar 2026 - Present | Hanoi</p>
+                </div>
+                <div>
                   <h4 className="text-lg font-semibold"><strong>Fullstack Developer</strong></h4>
-                  <p className="text-sm text-gray-500"><strong>Remitano</strong> - Cryptocurrency Exchange | Sep 2024 - Present | Remote</p>
+                  <p className="text-sm text-gray-500"><strong>Remitano</strong> - Cryptocurrency Exchange | Sep 2024 - Mar 2026 | Remote</p>
                   <ul className="list-disc list-inside mt-2">
                     <li>Developed an <strong>ERP service</strong> that maintains pull requests and links with documents to manage the goals and tasks of the product.</li>
                     <li>Developed an <strong>anomaly detection service</strong> for detecting anomalies in on-ramp and off-ramp flows using <strong>AWS Cloudwatch</strong>.</li>

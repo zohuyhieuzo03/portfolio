@@ -26,7 +26,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hieunh03/portfolio.git
+git clone https://github.com/zohuyhieuzo03/portfolio.git
 ```
 
 2. Install dependencies:
@@ -50,10 +50,9 @@ npm run dev
 
 ## 📱 Contact
 
-- Phone: +84 388 522 680
 - Email: hhleas03@gmail.com
 - LinkedIn: [linkedin.com/in/hieu-nguyen-huy](https://linkedin.com/in/hieu-nguyen-huy)
-- GitHub: [github.com/hieunh03](https://github.com/hieunh03)
+- GitHub: [github.com/zohuyhieuzo03](https://github.com/zohuyhieuzo03)
 
 ## 📄 License
 
